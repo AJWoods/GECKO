@@ -4,3 +4,7 @@ body{font-family:arial;background-color: rgb(44, 85, 31);}
 
 #header{display:table-cell; vertical-align:middle; text-align:center;width:10000px;}
 
+a:link {color:#BB0000;}    /* unvisited link */
+a:visited {color:#008800;} /* visited link */
+a:hover {color:#00FF00;}   /* mouse over link */
+a:active {color:#0000FF;}  /* selected link */
