@@ -4,6 +4,9 @@ body{font-family:arial;background-color: rgb(44, 85, 31);}
 
 #header{display:table-cell; vertical-align:middle; text-align:center;width:10000px;}
 
+
+body {background-image:url('http://fsb.zedge.net/scale.php?img=NC80LzUvMi8xLTY1NDgwNDktNDQ1MjUyMy5qcGc&ctype=1&v=4&q=81&xs=620&ys=383&sig=87ca95a8d39affd0714aa6cb182bb29fa80c30da');}
+
 a:link {color:#BB0000;}    /* unvisited link */
 a:visited {color:#008800;} /* visited link */
 a:hover {color:#00FF00;}   /* mouse over link */
