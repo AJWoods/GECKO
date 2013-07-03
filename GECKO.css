@@ -8,7 +8,7 @@ body{font-family:arial;background-color: rgb(44, 85, 31);}
     font-family: "Inconsolata";
     src: url(http://levien.com/type/myfonts/Inconsolata.otf) format("opentype");
 }
-p.customfont { 
+p { 
     font-family: "Inconsolata", "Times New Roman", sans-serif;
 }
 
