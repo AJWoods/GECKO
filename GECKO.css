@@ -4,7 +4,11 @@ body{font-family:arial;background-color: rgb(44, 85, 31);}
 
 #header{display:table-cell; vertical-align:middle; text-align:center;width:10000px;}
 
-p { 
+@font-face {
+    font-family: "Inconsolata";
+    src: url(http://levien.com/type/myfonts/Inconsolata.otf) format("opentype");
+}
+p.customfont { 
     font-family: "Inconsolata", "Times New Roman", sans-serif;
 }
 
