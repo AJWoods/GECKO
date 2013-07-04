@@ -4,6 +4,8 @@ body{font-family:Inconsolata,"Courier New";background-color: rgb(0, 0, 0);color:
 
 #header{display:table-cell; vertical-align:middle; text-align:center;width:10000px;}
 
+#content{vertical-align:middle; margin:0 auto; text-align:left;width:1024px;background-color:#001100;border:10px solid #001100;border-radius:10px;}
+
 @font-face {
     font-family: "Inconsolata";
     src: url("Fonts/Inconsolata.otf") format("opentype");
@@ -11,8 +13,6 @@ body{font-family:Inconsolata,"Courier New";background-color: rgb(0, 0, 0);color:
 /*p { 
     font-family: "Inconsolata", "Times New Roman", sans-serif;
 }*/
-
-
 
 body {background-image:url('images/background.png');}
 
@@ -61,4 +61,4 @@ a:active {color:#009900;}  /* selected link */
     to {
         opacity: 1;
     }
-}​
+}
