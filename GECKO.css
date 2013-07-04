@@ -64,3 +64,5 @@ a:active {color:#009900;}  /* selected link */
         opacity: 1;
     }
 }
+
+img.screenshot {width:1000px;}
