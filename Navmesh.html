@@ -13,7 +13,7 @@
 <h1> Navmesh </h1>
 <h2> What navmesh is, and How to place and edit it. </h2>
 <p>
-Navmesh is a area made up of linked triangles that dictates where the NPCs can move. Without navmesh, any NPCs will be seen to act somewhat erratically; running in the opposite direction to you, standing in the corner of a room etc. Therefore navmesh is absolutley imperative to any levels with enemies inside, and so you will definitley need some for your tutorial plugin.
+Navmesh is a area made up of linked triangles that dictates where the NPCs can move. Without navmesh, any NPCs will be seen to act somewhat erratically; running in the opposite direction to you, standing in the corner of a room etc. Therefore navmesh is absolutley imperative to any levels with enemies inside, and so you will definitley need some for your tutorial plugin. <b> IMPORTANT the navmesh is not "the floor" for NPC characters, instead it just shows which areas of floor they can walk on. Therefore they walk on the floor, even if the navmesh is above it. </b>
 </p>
 <h2> Down to business </h2>
 <p>
@@ -23,5 +23,9 @@ A link to a good navmesh tutorial is this link to the {GECK wiki}. I will also e
 </p>
 <p>
 This nicely leads me on to the second technique, which is to create the navmesh from scratch instead of trying to edit it. This allows for greater accuracy and cohesion between areas of navmesh, but often takes longer.
+</p>
+<p>
+You will, most likely, encounter a few problems with your navmesh, notably the stairs. But this is easy enough once you know. Make sure that you have a flat edge at the top/bottom of the stairs, and then hit the select edges tool and select the edge bordering the stairs. Stretch the navmesh over the stairs and connect it to another stright edge of navmesh on the other side.
+</p>
 </div>
 </html>
