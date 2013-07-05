@@ -6,6 +6,9 @@
     <title>GECKO-Navmesh Tutorial</title>
     <link rel="stylesheet" href="GECKO.css">
   </head>
+  <div id="menu-bar">
+<iframe src="menubar-master.html" height="53px" width="1040px" frameBorder="0"></iframe>
+  </div>
   <div id="sidebar">
      <iframe src="sitemap-master.html" height="250px" frameBorder="0"></iframe>
   </div>
@@ -13,13 +16,17 @@
 <h1> Navmesh </h1>
 <h2> What navmesh is, and How to place and edit it. </h2>
 <p>
+<<<<<<< HEAD
 Navmesh is a area made up of linked triangles that dictates where the NPCs can move. Without navmesh, any NPCs will be seen to act somewhat erratically; running in the opposite direction to you, standing in the corner of a room etc. Therefore navmesh is absolutley imperative to any levels with enemies inside, and so you will definitley need some for your tutorial plugin. <b> IMPORTANT the navmesh is not "the floor" for NPC characters, instead it just shows which areas of floor they can walk on. Therefore they walk on the floor, even if the navmesh is above it. </b>
+=======
+Navmesh is an area made up of linked triangles that dictates where the NPCs can move. Without navmesh, any NPCs will be seen to act somewhat erratically; running in the opposite direction to you, standing in the corner of a room etc. Therefore navmesh is absolutley imperative to any levels with enemies inside and so you will definitely need some for your tutorial plugin.
+>>>>>>> 350ab117b8cfe6d68d9d9fd547f8ceff60054404
 </p>
 <h2> Down to business </h2>
 <p>
-There are two ways to start with navmesh.The first option is to navigate to the top of the screen, and then go to the drop down menu labelled "Navmesh". Select {"Generate navmesh"} and then wait for a bit whilst it loads. You can also use {something} to only auto navmesh the area you have selected, which can be useful given the incomplete nature of areas of navmesh in certain tiles, such as caves. Then, once this has finished, manually edit the navmesh, by popping up the navmesh menu with ctrl E, or selecting the symbol on the top bar, <img scr="Images/Navmesh tool bar.png" id= "Navmesh top bar"> and using the appropriate tools. (Shown below)
+There are two ways to start with navmesh.The first option is to navigate to the top of the screen, then go to the drop down menu labelled "Navmesh". Select {"Generate navmesh"} and then wait for a bit whilst it loads. You can also use {something} to only auto navmesh the area you have selected, which can be useful given the incomplete nature of areas of navmesh in certain tiles, such as caves. Then, once this has finished, manually edit the navmesh by popping up the navmesh menu with ctrl E or selecting the symbol on the top bar <img scr="Images/Navmesh tool bar.png" id= "Navmesh top bar"> and using the appropriate tools. (Shown below)
 <img src="Images/Navmesh options bar.png" id= "Navmesh options bar1">
-A link to a good navmesh tutorial is this link to the {GECK wiki}. I will also explain the tools as follows: The tool on the far left of the bar allows you to select faces, the tool next to it allows you to select vertices, and the tool next to that allows you to select edges. Drag clicked edges or points to expand that part of the triangle, Click on the {multi coloured button} to create a new triangle once you have 3 vertices placed, or use the {} hotkey. Another neat trick is that if you have two points selected, press Ctrl click to place another point and automatically create a new triangle of the selected points. This is affectionatley referred to as the "Walking the dog technique".
+A link to a good navmesh tutorial is this link to the {GECK wiki}. I will also explain the tools as follows: The tool on the far left of the bar allows you to select faces, the tool next to it allows you to select vertices and the tool next to that allows you to select edges. Drag clicked edges or points to expand that part of the triangle. Click on the {multi coloured button} to create a new triangle once you have 3 vertices placed or use the {} hotkey. Another neat trick is that if you have two points selected press Ctrl click to place another point and automatically create a new triangle of the selected points. This is affectionatley referred to as the "Walking the dog technique".
 </p>
 <p>
 This nicely leads me on to the second technique, which is to create the navmesh from scratch instead of trying to edit it. This allows for greater accuracy and cohesion between areas of navmesh, but often takes longer.
