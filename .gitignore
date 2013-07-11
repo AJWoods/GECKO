@@ -2,9 +2,9 @@
 ## Security
 #################
 
-.key
-.pub
-.pem
+*.key
+*.pub
+*.pem
 
 #################
 ## Eclipse
